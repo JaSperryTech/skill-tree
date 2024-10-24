@@ -50,7 +50,7 @@ var tree = d3.layout
   })
   .size([height - 2 * border, width - 2 * border]);
 
-d3.json("/personal-skill-tree/database/db.json", function (data) {
+d3.json("/Skill-Tree/database/db.json", function (data) {
   console.log(JSON.stringify(data));
 
   var nodes = tree.nodes(data);
